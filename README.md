@@ -10,13 +10,13 @@ This project demonstrates 3 different approaches to process a list of numbers in
 
 Each approach multiplies a list of 100 integers by 2 and compares performance.
 
--------------------------------------------------------------------------------
+-
 📌 Problem Statement
 -
 Given a list of 100 numbers, multiply each number by 2.
 Process the numbers in parallel with 5 workers.
 
--------------------------------------------------------------------------------
+-
 🛠️ Approache
 -
 1. 🧵 Using Threads
@@ -27,7 +27,7 @@ Each thread handles a chunk of 20 numbers.
 
 Requires explicit management (start(), join()).
 
-------------------------------------------------------------------------------
+-
 2. ⚡ Using ExecutorService
 
 Uses a fixed thread pool of 5 workers.
@@ -36,7 +36,7 @@ Tasks are submitted via executor.submit(...).
 
 Automatically manages scheduling of tasks.
 
-----------------------------------------------------------------------------
+-
 3. 🌊 Using Parallel Streams
 
 Java 8+ built-in way to process collections in parallel.
