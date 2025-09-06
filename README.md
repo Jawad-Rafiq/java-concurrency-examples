@@ -10,7 +10,7 @@ This project demonstrates 3 different approaches to process a list of numbers in
 
 Each approach multiplies a list of 100 integers by 2 and compares performance.
 
---
+---
 📌 Problem Statement
 -
 Given a list of 100 numbers, multiply each number by 2.
